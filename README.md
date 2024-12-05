@@ -1,12 +1,12 @@
-# **Predição Sobre Demandas para Produtos de Supermercados**
+# **Predição de Conversão de Vendas em Varejo Online**
 
 ## **Descrição do Projeto**
 
-O projeto **SmartRetail** visa o desenvolvimento de um algoritmo fundamentado em Machine Learning que prevê a demanda por produtos em supermercados. Por meio do dataset Retail Rocket Recommender System, meu modelo interpreta padrões históricos de vendas e aspectos como promoções, sazonalidade e dias da semana, visando otimizar o planejamento de estoques e logística. 
+Este projeto aplica técnicas de aprendizado de máquina visando prever conversões de vendas em um ambiente de varejo online com base no conjunto de dados do Sistema de Recomendação Retail Rocket. Ao invés de prever a demanda geral do mercado por bens, o foco aqui é identificar quais usuários têm mais probabilidade de realizar uma compra após visitar o site. Os modelos analisam comportamentos que indicam intenção de compra, como visualizações de produtos, cliques e adições ao carrinho, a fim de estimar a taxa de conversão. O projeto aborda os desequilíbrios de classes que são oferecidos para desafios neste caso, onde a taxa de usuários que compram o produto é baixa.
 
 ## **Motivação**
 
-Supermercados enfrentam desafios constantes com o gerenciamento de estoques. O objetivo deste projeto é reduzir desperdícios, evitar a falta de produtos e melhorar a eficiência no planejamento logístico.
+Compreender e prever o comportamento do cliente no competitivo mercado de compras online é fundamental para melhorar os negócios e as vendas. O projeto visa criar um modelo preditivo que ajude a identificar potenciais compradores, permitindo que planos e necessidades individuais aumentem as taxas de conversão.
 
 ## **Tecnologias Utilizadas**  
 - Linguagem: Python  
@@ -18,8 +18,8 @@ Supermercados enfrentam desafios constantes com o gerenciamento de estoques. O o
   - Jupyter Notebook  
 
 ## **Algoritmos Implementados**  
-1. **Regressão Linear**: Para analisar relações entre fatores contínuos e demanda.  
-2. **Random Forest**: Para capturar padrões complexos e não lineares.  
+1. **Regressão Linear**: Utilizada como modelo de baseline para comparação.  
+2. **Random Forest**: Empregado para capturar relações não lineares e melhorar a performance preditiva, especialmente na classe minoritária ("Convertido"). 
 
 ## **Dataset**  
 O dataset utilizado é o **[Retail Rocket Recommender System Dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)**, disponível no Kaggle.  
