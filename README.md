@@ -62,4 +62,4 @@ O dataset utilizado é o **[Retail Rocket Recommender System Dataset](https://ww
    
 5. Abra o arquivo principal **AnaliseDeConversao.ipynb** no Jupyter e execute as células para carregar o dataset, treinar os modelos e visualizar os resultados.
 
-Para ter visualizar o relatorio completo que explica o motivo e a logica por tras do Algoritmo gerado, basta entrar em 
+- Para ter visualizar o relatorio completo que explica o motivo e a logica por tras do Algoritmo gerado, basta entrar em [Docs](./Docs)
